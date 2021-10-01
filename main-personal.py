@@ -8,8 +8,8 @@ try:                                                                            
     print("The log of x is:",numpy.log2(float(x)))
     print("My student id is: 0077808")
 except ValueError as e:
-    print("Please only input numbers")          #Crash message
+    print("Please only input numbers")                                              #Crash message
 except KeyboardInterrupt as e:
-    print("\n(×_×)")
+    print("\n(×_×)")                                                                #Poor little program it was just doing it's job
 except:
-    print("Ouch! you broke the universe!")
+    print("Ouch! you broke the universe!")                                          #Quite dead isn't it
